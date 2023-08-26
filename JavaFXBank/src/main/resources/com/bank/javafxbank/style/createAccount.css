@@ -1,0 +1,51 @@
+.container_main {
+    -fx-background-color: #eeeeee;
+}
+
+.container_main Text {
+    -fx-font-size: 1.2em;
+    -fx-fill: #888888;
+}
+
+.container_main VBox {
+    -fx-border-color: #000000;
+    -fx-border-width: 0 0 0 1;
+    -fx-padding: 5;
+    -fx-spacing: 15;
+}
+
+.container_main TextField {
+    -fx-pref-height: 30;
+    -fx-pref-width: 250;
+    -fx-background-color: #ffffff;
+    -fx-font-size: 1.3em;
+    -fx-effect: dropshadow(three-pass-box, #aaaaaa, 3, 0, 0, 3);
+}
+
+.payee_address {
+    -fx-pref-height: 25;
+    -fx-pref-width: 250;
+    -fx-padding: 5;
+    -fx-background-color: #888888;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.3em;
+    -fx-effect: dropshadow(three-pass-box, #aaaaaa, 3, 0, 0, 3);
+}
+
+.container_main Button {
+    -fx-background-color: linear-gradient(to right, #132a13, #253f25);
+    -fx-effect: dropshadow(three-pass-box, #aaaaaa, 3, 0, 0, 3);
+    -fx-pref-width: 250;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+}
+
+.container_main Button:hover {
+    -fx-cursor: hand;
+}
+
+.error {
+    -fx-text-fill: #FF0000;
+}

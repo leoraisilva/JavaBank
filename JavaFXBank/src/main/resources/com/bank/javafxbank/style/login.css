@@ -1,0 +1,66 @@
+.account {
+    -fx-background-color: #EEEEEE;
+}
+.account_logo {
+    -fx-alignment: center;
+    -fx-background-color: #132a13;
+}
+.account_logo Text{
+    -fx-font-size: 2em;
+    -fx-fill: #FFFFFF;
+}
+.account_logo FontAwesomeIconView {
+    -fx-fill: #ecf39e;
+}
+
+.account_login_selector {
+    -fx-background-color: #ecf39e;
+}
+
+#choice_Label {
+    -fx-font-weight: 400;
+}
+
+.account_login_selector .label{
+    -fx-text-fill: #132a13;
+    -fx-font-size: 1.1em;
+}
+
+.account_login_selector .arrow {
+    -fx-background-color: #132a13;
+}
+
+#choice-box-popup-menu {
+    -fx-background-color: #ecf39e;
+}
+
+.account_login {
+    -fx-spacing: 15;
+    -fx-alignment: top_left;
+}
+
+.account_login Label {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+
+.account_login Button {
+    -fx-background-color: #132a13;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 350;
+    -fx-font-size: 1.2em;
+}
+.account_login Button:hover{
+    -fx-cursor: hand;
+}
+
+.account_input {
+    -fx-background-color: #FFFFFF;
+    -fx-pref-height: 35;
+    -fx-font-size: 1.2em;
+}
+
+#error {
+    -fx-text-fill: red;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" stylesheets="@../style/menuClient.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.control.Admin.menuAdminControl">
+   <children>
+      <AnchorPane prefHeight="730.0" prefWidth="160.0">
+         <children>
+            <VBox prefHeight="80.0" prefWidth="160.0" styleClass="menu_title" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <FontAwesomeIconView glyphName="BANK" size="30" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="JavaFXBank" />
+               </children>
+            </VBox>
+            <VBox layoutX="40.0" layoutY="177.0" prefHeight="400.0" prefWidth="160.0" styleClass="menu_body" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+               <children>
+                  <Button fx:id="createClientButton" mnemonicParsing="false" text="Create Client">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="PLUS" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="clientButton" mnemonicParsing="false" text="Client">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="LIST" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="depositClientButton" mnemonicParsing="false" text="Deposit">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="MONEY" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="logoutAdminButton" mnemonicParsing="false" styleClass="menu_body_button" text="Logout">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="EXTERNAL_LINK" size="20" />
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

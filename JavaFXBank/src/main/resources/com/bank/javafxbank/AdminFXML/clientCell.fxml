@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="750.0" styleClass="client_container" stylesheets="@../style/clientCell.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <FontAwesomeIconView glyphName="USER" layoutX="14.0" layoutY="29.0" size="20" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <HBox layoutX="56.0" layoutY="4.0" prefHeight="40.0" prefWidth="550.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Label fx:id="nameSend" text="Henry" />
+            <Label fx:id="lastNameSend" text="Troble" />
+            <Label fx:id="accountSend" text="#htroble" />
+            <Label fx:id="numberAccount" styleClass="client_display" text="58464845" />
+            <Label fx:id="secundNumber" styleClass="client_display" text="44526581" />
+            <Label fx:id="clientDate" text="2023-07-26" />
+         </children>
+      </HBox>
+      <Button fx:id="buttonDelet" layoutX="660.0" layoutY="11.0" mnemonicParsing="false" styleClass="client_button" text="Button" AnchorPane.rightAnchor="14.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="WINDOW_CLOSE_ALT" size="20" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

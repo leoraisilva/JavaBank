@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="550.0" styleClass="cell_container" stylesheets="@../style/transactionCell.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.control.Client.transactionCellControl">
+   <children>
+      <VBox alignment="CENTER" layoutX="24.0" prefHeight="50.0" prefWidth="50.0" styleClass="trans_cell_vbox" AnchorPane.bottomAnchor="4.6" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Label fx:id="cellArrowRight" styleClass="arrow" text="→" />
+            <Label fx:id="cellArrowLeft" styleClass="arrow" text="←" />
+         </children>
+      </VBox>
+      <Label fx:id="cellDate" layoutX="89.0" layoutY="22.0" styleClass="cell_container_date" text="2023-07-26" textAlignment="CENTER" AnchorPane.leftAnchor="100.0" />
+      <Label fx:id="cellSend" layoutX="199.0" layoutY="17.0" styleClass="cell_container_send_receive" text="Leonardo" textAlignment="CENTER" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="22.0" />
+      <Label fx:id="cellReceive" layoutX="361.0" layoutY="17.0" styleClass="cell_container_send_receive" text="Henry" textAlignment="CENTER" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="358.0" AnchorPane.topAnchor="22.0" />
+      <Line endY="20.0" layoutX="306.0" layoutY="20.0" AnchorPane.bottomAnchor="21.5" AnchorPane.leftAnchor="300.0" />
+      <Label fx:id="cellAmount" layoutX="467.0" layoutY="17.0" styleClass="cell_container_amount" text="\$ 200,000" textAlignment="CENTER" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>

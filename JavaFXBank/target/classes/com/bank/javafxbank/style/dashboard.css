@@ -1,0 +1,141 @@
+.dashboard_container {
+    -fx-background-color: #ffffff;
+}
+
+.user_name {
+    -fx-font-size: 2.6em;
+    -fx-font-family: "Calibri Light";
+}
+
+.section_title {
+    -fx-font-size: 1.4em;
+    -fx-font-family: "Calibri Light";
+}
+
+.date_label {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Calibri Light";
+}
+
+.dashboard_view {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10 0 0 10;
+    -fx-padding: 10 0 10 0;
+    -fx-alignment: center;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0 1 0 0;
+    -fx-spacing: 10;
+}
+
+.dashboard_view VBox {
+    -fx-background-color: #ffffff;
+}
+
+.dashboard_view Text {
+    -fx-fill: #ffffff;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1.5em;
+}
+
+.dashboard_view FontAwesomeIconView {
+    -fx-fill: #ffffff;
+}
+
+.dashboard_checking {
+    -fx-background-color: linear-gradient(to right, #132a13, #253f25);
+    -fx-effect: dropshadow(three-pass-box, #888686, 10, 0, 0, 10);
+}
+
+.dashboard_balance {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Calibri;
+    -fx-font-size: 3em;
+    -fx-font-weight: bold;
+}
+
+.dashboard_number {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-text-alignment: center;
+}
+.dashboard_summary {
+    -fx-background-color: #ffffff;
+    -fx-padding: 5 10 5 10;
+    -fx-spacing: 5;
+    -fx-alignment: center_left;
+}
+
+.dashboard_summary_container {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+    -fx-border-radius: 10;
+    -fx-border-color: #999999;
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+}
+
+
+.dashboard_summary_container Line {
+    -fx-stroke: #aaaaaa;
+}
+
+.dashboard_summary_income {
+    -fx-text-fill: #00AA00;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1.5em;
+}
+
+.dashboard_summary_expense {
+    -fx-text-fill: #AA0000;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1.5em;
+}
+
+.dashboard_transaction{
+    -fx-background-color: #eeeeee;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: #aaaaaa;
+}
+
+.dashboard_transaction .scroll-bar:vertical{
+    -fx-scale-x: 0;
+}
+
+.list-cell {
+    -fx-background-color: #eeeeee;
+    -fx-padding: 15 0 15 0;
+}
+
+.dashboard_trans_money {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20 10 20 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+}
+
+.dashboard_trans_money Label {
+    -fx-font-size: 1.3em;
+    -fx-font-family: "Calibri Light";
+}
+
+.dashboard_trans_money TextField {
+    -fx-pref-height: 40;
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, #aaaaaa, 3, 0, 0, 3);
+}
+
+.dashboard_trans_money Button {
+    -fx-background-color: linear-gradient(to right, #132a13, #253f25);
+    -fx-effect: dropshadow(three-pass-box, #888686, 3, 0, 0, 3);
+    -fx-pref-width: 230;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.5em;
+}
+
+.dashboard_trans_money Button:hover {
+    -fx-cursor: hand;
+}
