@@ -2,7 +2,7 @@
 
 <?import javafx.scene.layout.*?>
 
-<BorderPane fx:id="clientPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" >
+<BorderPane fx:id="clientPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.bank.javafxbank.Control.clientControl" >
     <left>
         <fx:include source="menuClient.fxml"/>
     </left>

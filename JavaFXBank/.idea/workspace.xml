@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="8190cbb5-a6ed-4cdd-9f68-25be46a18d24" name="Changes" comment="">
+    <list default="true" id="7c498b48-f24e-4d72-8fe7-b0c3f7f83083" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/View/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/View/ViewFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/ClientFXML/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/ClientFXML/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/ClientFXML/menuClient.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/ClientFXML/menuClient.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/ClientFXML/transaction.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/ClientFXML/transaction.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/ClientFXML/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/ClientFXML/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/ClientFXML/menuClient.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/ClientFXML/menuClient.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/ClientFXML/transaction.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/ClientFXML/transaction.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/View/ViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/View/ViewFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
-=======
-    <list default="true" id="8190cbb5-a6ed-4cdd-9f68-25be46a18d24" name="Changes" comment="" />
->>>>>>> master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,26 +45,26 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2UXCxHSQerTJL8uAe4NpecPdnLr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8190cbb5-a6ed-4cdd-9f68-25be46a18d24" name="Changes" comment="" />
+      <changelist id="7c498b48-f24e-4d72-8fe7-b0c3f7f83083" name="Changes" comment="" />
       <created>1693076789258</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

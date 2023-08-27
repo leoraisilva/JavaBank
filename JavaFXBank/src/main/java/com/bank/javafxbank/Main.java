@@ -7,9 +7,9 @@ import javafx.stage.Stage;
 public class Main extends Application{
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Model.getInstance().getView().ShowLoginGetWindow();
-    }
+}
 
     public static void main(String[]args){launch(args);}
 
