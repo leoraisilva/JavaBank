@@ -16,7 +16,7 @@ public class clientControl implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        Model.getInstance().getView().getObjectProperty().addListener((Observable, oldValue, newValue) ->{
+        Model.getInstance().getView().getObjectClientProperty().addListener((Observable, oldValue, newValue) ->{
             switch (newValue){
                 case Dashboard -> clientPane.setCenter(Model.getInstance().getView().getDashboard());
                 case Transaction -> clientPane.setCenter(Model.getInstance().getView().getTransaction());

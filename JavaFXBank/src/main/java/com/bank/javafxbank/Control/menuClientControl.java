@@ -33,12 +33,12 @@ public class menuClientControl implements Initializable {
         accountButton.setOnAction(event ->{onAccount();});
     }
     public void onDashboard(){
-        Model.getInstance().getView().getObjectProperty().set(ClientView.Dashboard);
+        Model.getInstance().getView().getObjectClientProperty().set(ClientView.Dashboard);
     }
     public void onTransaction(){
-        Model.getInstance().getView().getObjectProperty().set(ClientView.Transaction);
+        Model.getInstance().getView().getObjectClientProperty().set(ClientView.Transaction);
     }
     public void onAccount(){
-        Model.getInstance().getView().getObjectProperty().set(ClientView.Account);
+        Model.getInstance().getView().getObjectClientProperty().set(ClientView.Account);
     }
 }

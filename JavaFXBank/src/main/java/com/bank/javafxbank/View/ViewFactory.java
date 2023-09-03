@@ -1,6 +1,7 @@
 package com.bank.javafxbank.View;
 
 import com.bank.javafxbank.Main;
+import com.bank.javafxbank.Model.TypeAccount;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.fxml.FXMLLoader;
@@ -10,15 +11,64 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class ViewFactory {
-    private final ObjectProperty<ClientView> objectProperty;
+    private TypeAccount typeAccount;
+    private final ObjectProperty<TypeAccount> typeAccountObjectProperty;
+    /* Cliente */
+    private final ObjectProperty<ClientView> objectClientProperty;
     private AnchorPane DashboardView;
     private AnchorPane TransactionView;
     private AnchorPane AccountView;
-
-
+    /* Client */
+    /*Admin*/
+    private final ObjectProperty<AdminView> objectAdminProperty;
+    private AnchorPane ClientAdminView;
+    private AnchorPane CreateAdminView;
+    private AnchorPane DepositView;
+    /* Admin */
+    /* Construct */
     public ViewFactory(){
-        objectProperty = new SimpleObjectProperty<ClientView>();
+        this.typeAccount = TypeAccount.Client;
+        this.typeAccountObjectProperty = new SimpleObjectProperty<TypeAccount>();
+        this.objectClientProperty = new SimpleObjectProperty<ClientView>();
+        this.objectAdminProperty = new SimpleObjectProperty<AdminView>();
     }
+
+    /* Construct */
+
+    public AnchorPane getClientAdmin() {
+        if(ClientAdminView==null) {
+            try {
+                ClientAdminView = new FXMLLoader(Main.class.getResource("AdminFXML/clientAdmin.fxml")).load();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return  ClientAdminView;
+    }
+
+    public AnchorPane getCreateAdmin() {
+        if(CreateAdminView==null) {
+            try {
+                CreateAdminView = new FXMLLoader(Main.class.getResource("AdminFXML/createAdmin.fxml")).load();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return  CreateAdminView;
+    }
+
+    public AnchorPane getDeposit() {
+        if(DepositView==null) {
+            try {
+                DepositView = new FXMLLoader(Main.class.getResource("AdminFXML/depositAdmin.fxml")).load();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return  DepositView;
+    }
+    /*Client */
+
 
     public AnchorPane getDashboard() {
         if(DashboardView==null) {
@@ -53,9 +103,27 @@ public class ViewFactory {
         return  AccountView;
     }
 
-    public ObjectProperty<ClientView> getObjectProperty() {
-        return objectProperty;
+    public ObjectProperty<TypeAccount> typeAccountObjectPropertyProperty() {
+        return typeAccountObjectProperty;
     }
+
+    public TypeAccount getTypeAccount() {
+        return typeAccount;
+    }
+
+    public void setTypeAccount(TypeAccount typeAccount) {
+        this.typeAccount = typeAccount;
+    }
+
+    public ObjectProperty<ClientView> getObjectClientProperty() {
+        return objectClientProperty;
+    }
+    /* Cliente */
+    /* Admin */
+    public ObjectProperty<AdminView> getObjectAdminProperty() {
+        return objectAdminProperty;
+    }
+    /* Admin */
 
     public void getScene(FXMLLoader loader){
         Scene scene =  null;
@@ -86,4 +154,8 @@ public class ViewFactory {
         getScene(loader);
     }
 
+    public void ShowAdminGetWindow(){
+        FXMLLoader loader = new FXMLLoader(Main.class.getResource("AdminFXML/admin.fxml"));
+        getScene(loader);
+    }
 }

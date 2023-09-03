@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="850.0" styleClass="container_main" stylesheets="@../style/createAccount.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.control.Admin.createAccount">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="850.0" styleClass="container_main" stylesheets="@../style/createAccount.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
       <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Client Account" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
       <VBox fillWidth="false" layoutX="14.0" layoutY="38.0" prefHeight="700.0" prefWidth="600.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="41.0">

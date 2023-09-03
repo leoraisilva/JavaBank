@@ -2,7 +2,7 @@
 
 <?import javafx.scene.layout.*?>
 
-<BorderPane fx:id="adminPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="main.control.Admin.adminControl" >
+<BorderPane fx:id="adminPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.bank.javafxbank.Control.adminControl" >
     <left>
         <fx:include source="menuAdmin.fxml"/>
     </left>
