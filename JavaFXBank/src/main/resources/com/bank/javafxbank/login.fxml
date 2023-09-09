@@ -22,7 +22,7 @@
          <children>
             <Label id="choice_Label" text="Type Account" />
             <ChoiceBox id="choice-box" fx:id="selector" prefWidth="150.0" styleClass="account_login_selector" />
-            <Label fx:id="userLabel" text="Username" />
+            <Label fx:id="userLabel" text="Payee Address" />
             <TextField fx:id="userField" styleClass="account_input" />
             <Label text="Password" />
             <PasswordField fx:id="passField" styleClass="account_input" />

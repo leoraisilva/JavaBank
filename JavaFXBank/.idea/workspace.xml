@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c498b48-f24e-4d72-8fe7-b0c3f7f83083" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/adminControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/menuAdminControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Model/TypeAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/View/AdminView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/adminControl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/adminControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/menuAdminControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Model/TypeAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/View/AdminView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/clientControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/clientControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/loginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/loginControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/menuAdminControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/menuAdminControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/menuClientControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Control/menuClientControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/View/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/View/ViewFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/clientAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/clientAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/createAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/createAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/menuAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/AdminFXML/menuAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/clientAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/clientAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/createAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/createAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/menuAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/AdminFXML/menuAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/clientControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/clientControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/loginControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/loginControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/menuClientControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Control/menuClientControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/View/ViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/View/ViewFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/javafxbank/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bank/javafxbank/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/javafxbank/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +48,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

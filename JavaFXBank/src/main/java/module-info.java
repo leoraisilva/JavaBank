@@ -3,6 +3,7 @@ module com.bank.javafxbank {
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
+    requires java.sql;
 
     opens com.bank.javafxbank to javafx.fxml;
     exports com.bank.javafxbank;

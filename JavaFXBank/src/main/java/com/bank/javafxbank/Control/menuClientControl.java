@@ -5,6 +5,7 @@ import com.bank.javafxbank.View.ClientView;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -31,6 +32,7 @@ public class menuClientControl implements Initializable {
         dashboardButton.setOnAction(event ->{onDashboard();});
         transactionButton.setOnAction(event ->{onTransaction();});
         accountButton.setOnAction(event ->{onAccount();});
+        logoutButton.setOnAction(event->{onLougout();});
     }
     public void onDashboard(){
         Model.getInstance().getView().getObjectClientProperty().set(ClientView.Dashboard);
@@ -40,5 +42,12 @@ public class menuClientControl implements Initializable {
     }
     public void onAccount(){
         Model.getInstance().getView().getObjectClientProperty().set(ClientView.Account);
+    }
+    public void onLougout(){
+        Stage stage = (Stage) dashboardButton.getScene().getWindow();
+        Model.getInstance().getView().ShowLoginGetWindow();
+        Model.getInstance().setClientFlagAccount();
+        Model.getInstance().getView().getClose(stage);
+
     }
 }
